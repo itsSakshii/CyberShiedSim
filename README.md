@@ -1,6 +1,6 @@
-# SecureSphere - Interactive Cybersecurity Learning & Analysis Platform
+# CyberShieldSim - Interactive Cybersecurity Learning & Analysis Platform
 
-SecureSphere is a multi-page Streamlit project for academic cybersecurity learning.
+CyberShieldSim is a multi-page Streamlit project for academic cybersecurity learning.
 It combines attack simulations, secure system controls, practical tools, dashboard analytics,
 and in-memory activity logs.
 
@@ -35,18 +35,8 @@ info project/
 - Activity logs stored in memory and shown in table format
 - Soft pastel UI with modern cards, tabs, columns, and spinner animations
 
-## Suggested Team Contribution Split
 
-- Developer 1: Attack Simulation Lab scenarios and explanations
-- Developer 2: Secure System (auth, RBAC, file handling and protection demo)
-- Developer 3: Dashboard, Security Tools, Activity Logs, and UI consistency
 
-## Run Locally
-
-1. Install dependencies:
-   - `pip install -r requirements.txt`
-2. Start the app:
-   - `streamlit run app.py`
 
 ## Notes
 
