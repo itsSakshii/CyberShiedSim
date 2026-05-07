@@ -87,7 +87,7 @@ def render_learning_text(what: str, behind: str, why: str) -> None:
     st.success(f"Why it matters: {why}")
 
 
-st.set_page_config(page_title="Simulator | SecureSphere", layout="wide")
+st.set_page_config(page_title="Simulator | CyberShieldSim", layout="wide")
 init_state()
 apply_theme()
 
@@ -337,7 +337,7 @@ elif algo == "Base64 Encoding":
 
 else:
     with card("Compare Algorithms"):
-        compare_text = st.text_input("Enter one text to compare", "HELLO SECURESPHERE", key="cmp_text")
+        compare_text = st.text_input("Enter one text to compare", "HELLO CyberShieldSim", key="cmp_text")
         compare_shift = st.slider("Caesar shift", 1, 25, 3, key="cmp_shift")
         compare_keyword = st.text_input("Vigenere keyword", "KEY", key="cmp_key")
 

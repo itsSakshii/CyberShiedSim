@@ -17,7 +17,7 @@ def loader() -> None:
         time.sleep(0.3)
 
 
-st.set_page_config(page_title="Security Tools | SecureSphere", layout="wide")
+st.set_page_config(page_title="Security Tools | CyberShieldSim", layout="wide")
 init_state()
 apply_theme()
 

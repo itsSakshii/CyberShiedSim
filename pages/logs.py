@@ -5,7 +5,7 @@ from utils.state import init_state
 from utils.style import apply_theme
 
 
-st.set_page_config(page_title="Logs | SecureSphere", layout="wide")
+st.set_page_config(page_title="Logs | CyberShieldSim", layout="wide")
 init_state()
 apply_theme()
 

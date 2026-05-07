@@ -5,11 +5,11 @@ from utils.state import init_state
 from utils.style import apply_theme
 
 
-st.set_page_config(page_title="About | SecureSphere", layout="wide")
+st.set_page_config(page_title="About | CyberShieldSim", layout="wide")
 init_state()
 apply_theme()
 
-st.title("About SecureSphere")
+st.title("About CyberShieldSim")
 st.markdown(
     '<p class="hero-text">Cybersecurity Learning & Analysis Platform with practical authentication, encryption, signatures, and key exchange demos.</p>',
     unsafe_allow_html=True,
@@ -26,11 +26,11 @@ with card("Module Overview"):
         """
     )
 
-with card("Suggested 3-Developer Split"):
+with card("Working"):
     st.markdown(
         """
-        - Developer 1: Attack lab scenarios and learning flow
-        - Developer 2: Secure system authentication, RBAC, encryption workflows
-        - Developer 3: Security tools, dashboard, logging, and documentation
+        - Work 1: Attack lab scenarios and learning flow
+        - Work 2: Secure system authentication, RBAC, encryption workflows
+        - Work 3: Security tools, dashboard, logging, and documentation
         """
     )
