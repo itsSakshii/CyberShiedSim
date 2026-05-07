@@ -5,11 +5,11 @@ from utils.state import init_state
 from utils.style import apply_theme
 
 
-st.set_page_config(page_title="SecureSphere", layout="wide")
+st.set_page_config(page_title="CyberShieldSim", layout="wide")
 init_state()
 apply_theme()
 
-st.title("SecureSphere - Interactive Cybersecurity Learning & Analysis Platform")
+st.title("CyberShieldSim - Interactive Cybersecurity Learning & Analysis Platform")
 st.markdown(
     '<p class="hero-text">Dashboard for practical cybersecurity learning modules: attack simulation, secure system, cryptographic tools, and logs.</p>',
     unsafe_allow_html=True,
